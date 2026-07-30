@@ -17,7 +17,7 @@ OUTPUT_FILE      = "index.html"
 
 NOME_CLIENTE     = "Lindenberg Canário"
 LOGO_LETRA       = "LC"
-COR_ACENTO       = "#FF6D2D"
+COR_ACENTO       = "#8B0000"
 
 LANCAMENTO_COD   = ""        # filtra campanhas; "" = ver tudo
 USAR_PESQUISA    = False            # False = oculta aba Pesquisa
