@@ -21,7 +21,7 @@ COR_ACENTO       = "#8B0000"
 
 LANCAMENTO_COD   = ""        # filtra campanhas; "" = ver tudo
 USAR_PESQUISA    = False            # False = oculta aba Pesquisa
-USAR_GOOGLE      = False             # False = oculta toda a seção Google Ads
+USAR_GOOGLE      = True             # False = oculta toda a seção Google Ads
 
 # Etapas do funil — coloque False para remover a etapa
 # O cálculo das taxas se ajusta automaticamente às etapas ativas
@@ -42,16 +42,16 @@ _moeda_cfg    = _MOEDA_MAP.get(MOEDA, _MOEDA_MAP["BRL"])
 MOEDA_SIMBOLO = _moeda_cfg["simbolo"]
 MOEDA_LOCALE  = _moeda_cfg["locale"]
 
-CPL_BOM          = 40.0
-CPL_MEDIO        = 300.0
+CPL_BOM          = 200.0
+CPL_MEDIO        = 350.0
 CTR_BOM          = 0.6
 CTR_MEDIO        = 0.4
 CR_BOM           = 68.0
 CR_MEDIO         = 60.0
-TX_CONV_BOM      = 3.0
-TX_CONV_MEDIO    = 2.0
-CPM_BOM          = 5.0
-CPM_MEDIO        = 12.0
+TX_CONV_BOM      = 0.01
+TX_CONV_MEDIO    = 0.01
+CPM_BOM          = 100.0
+CPM_MEDIO        = 150.0
 
 # ══════════════════════════════════════════════════════
 def sheet_url(t): return f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&sheet={t}"
